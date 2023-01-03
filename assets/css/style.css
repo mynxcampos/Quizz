@@ -1,0 +1,130 @@
+/* ICI EST LA MISE EN PAGE GLOBALE */
+body {
+  background-image: url(../img/paysage.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* LE HAUT DE LA PAGE */
+
+#head {
+  margin-top: 20px;
+}
+
+header {
+  height: 50px;
+  width: 500px;
+  background-color: rgba(3, 19, 43, 0.596);
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  color: #207bb8;
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #000000, 0 0 20px #fff, 0 0 25px #fff, 0 0 30px #30B1B7, 0 0 35px #30B1B7;
+
+}
+
+/* LE SQUELETTE DE LA PAGE AVEC LES QUESTIONS REPONSES */
+
+main {
+  color: white;
+}
+
+/* Ton score */
+
+.score {
+  margin-left: 50px;
+  height: 30px;
+  width: 130px;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.666);
+  font-size: 20px;
+  -webkit-box-shadow: 3px 3px 15px 3px rgb(246, 118, 109);
+}
+.score p {
+  padding-left: 10px;
+}
+/* QUESTIONS/REPONSES */
+
+.numerotage {
+  font-size: 25px;
+  margin: 25px;
+  padding: 15px;
+}
+
+.titrequestion {
+  font-size: 20px;
+  margin: 20px;
+}
+
+.réponse {
+  margin: 25px;
+}
+
+#container p {
+  font-size: 25px;
+  padding-top: 80px;
+  color: black;
+  margin-top: 20px;
+  font-weight: 500;
+  animation: hinge;
+  animation-duration: 3s;
+  text-shadow: 0 0 5px #fff, 0 0 5  px #fff, 0 0 10px #000000, 0 0 10px #fff, 0 0 20px #fff, 0 0 25px #30B1B7, 0 0 30px #30B1B7;
+}
+
+#container {
+  height: 200px;
+  width: 600px;
+  background-color: rgba(4, 22, 50, 0.388);
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+  -webkit-box-shadow: 3px 3px 15px 3px rgb(246, 118, 109);
+}
+
+/* BUTTON RESET */
+
+#butreset a {
+  color: white;
+  text-decoration: none;
+  border: none;
+}
+
+#butreset {
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(47, 134, 137);
+  margin-top: 125px;
+  margin-left: 50px;
+  -webkit-box-shadow: 3px 3px 15px 3px rgb(246, 118, 109);
+}
+
+
+/* STYLE DU TIMER */
+
+.timing {
+  background-color: rgba(0, 0, 0, 0.666);
+  font-size: 15px;
+  border-radius: 10px;
+  -webkit-box-shadow: 3px 3px 15px 3px rgb(246, 118, 109);
+}
+
+/* BUTTON REPONSE*/
+
+.reponse {
+  color: aliceblue;
+  background-color: rgb(47, 134, 137);
+  -webkit-box-shadow: 5px 5px 10px 5px rgba(233, 226, 225, 0.312);
+  border: none;
+  border-radius: 10px;
+}
+
+/* BUTTON DEMARRAGE */
+
+.ready {
+  background-color: rgb(234, 95, 119);
+  border: none;
+  border-radius: 10px;
+  font-size: 25px;
+  -webkit-box-shadow: 5px 5px 10px 5px rgb(246, 191, 176);
+}
